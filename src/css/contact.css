@@ -1,0 +1,103 @@
+
+
+.inspection{
+  margin:5rem auto 8rem;
+}
+
+.inspection > div{ 
+  padding: 3rem 1rem 1rem;
+  
+}
+
+.inspection h3{
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.inspection form{
+  padding: 14px 16px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+
+}
+
+.inspection form input[type="submit"]{
+  margin: .5rem auto !important;
+  width: 50% !important;
+  display: block;
+}
+
+
+
+
+
+
+.sending {
+  margin: 1rem auto;
+  position: fixed !important;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: block;
+  height: fit-content;
+  width: 100%;
+  transition: all 500ms 800ms ease-in;
+}
+
+.sending div {
+  background-color: rgb(255, 232, 55);
+  padding: 14px 16px;
+  border-radius: 8px;
+  position: relative;
+  top: 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sending div h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.sent {
+  display: block;
+  margin: 1rem auto;
+  position: fixed !important;
+  top: 7rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  /* background-color: blue; */
+  height: fit-content;
+  width: 100%;
+  transition: all 500ms 800ms ease-in;
+}
+
+.sent div {
+  background-color: rgb(43, 241, 92);
+  padding: 14px 16px;
+  border-radius: 8px;
+  position: relative;
+  top: 0;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sent div h3 {
+  color: #fff;
+  text-align: center;
+  margin: auto 0.4rem;
+}
+
+.sent div svg {
+  font-size: 1.8rem;
+  color: #fff;
+}
